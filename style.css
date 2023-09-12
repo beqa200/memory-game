@@ -117,3 +117,66 @@ body {
     font-weight: 700;
     line-height: normal;
 }
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .title {
+        margin-top: 169px;
+        font-size: 40px;
+    }
+
+    .start-game-main {
+        margin-top: 78px;
+        padding: 56px;
+        width: 542.031px;
+        height: 447.04px;
+    }
+
+    .select-p {
+        font-size: 20px;
+    }
+
+    .number-btn {
+        width: 256px;
+        height: 52px;
+        transition-duration: .5s;
+    }
+
+    .number-of-p {
+        margin-top: 32px;
+    }
+
+    .nums-cont {
+        width: 119px;
+        height: 52px;
+        transition-duration: .5s;
+    }
+
+    .start-game-btn {
+        width: 541px;
+        height: 70px;
+        border-radius: 35px;
+        margin-top: 33px;
+        transition-duration: .5s;
+    }
+
+    .start-game-btn:hover {
+        cursor: pointer;
+        background: #FFB84A;
+    }
+
+    .number-btn:hover {
+        cursor: pointer;
+        background: #6395B8;
+    }
+
+    .nums-cont:hover {
+        cursor: pointer;
+        background: #6395B8;
+    }
+
+}
