@@ -1,0 +1,119 @@
+body {
+    background-color: #152938;
+}
+
+.main-cont {
+    width: 100%;
+}
+
+.title {
+    margin-top: 80px;
+    color: #FCFCFC;
+    text-align: center;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.start-game-main {
+    width: 279.02px;
+    height: 338.03px;
+    border-radius: 10px;
+    background: #FCFCFC;
+    margin: 45px auto 0 auto;
+    padding: 24px;
+}
+
+.select-p {
+    color: #7191A5;
+
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.number-icon-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+
+.number-btn {
+    width: 134px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 26px;
+    background: #304859;
+}
+
+.btn-value {
+    color: #FCFCFC;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.icon-btn {
+    background: #BCCED9;
+}
+
+.number-of-p {
+    margin-top: 24px;
+}
+
+.nums-cont {
+    width: 62px;
+    height: 40px;
+    border-radius: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #BCCED9;
+}
+
+.nums-cont1 {
+    background-color: #304859;
+}
+
+.num {
+    color: #FCFCFC;
+    text-align: center;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.start-game-btn {
+    width: 279px;
+    height: 48px;
+    margin: 32px auto 0 auto;
+    border-radius: 26px;
+    background: #FDA214;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-game {
+    color: #FCFCFC;
+    text-align: center;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
