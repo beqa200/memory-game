@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap");
+
+body {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+h1 {
+  font-weight: 700;
+  color: #152938;
+  font-size: 24px;
+  font-weight: 700;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 24px 0 24px;
+}
+.menu-box {
+  border-radius: 26px;
+  background: #fda214;
+  width: 78px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fcfcfc;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  gap: 12.29px;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  margin: auto;
+}
+
+.num {
+  border-radius: 59px;
+  background: #304859;
+  width: 72.53px;
+  height: 72.53px;
+}
+
+.restart-box {
+  display: none;
+  border-radius: 26px;
+  background: #fda214;
+  width: 127px;
+  height: 52px;
+  color: #fcfcfc;
+  font-size: 20px;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+}
+.newGame-box {
+  display: none;
+  width: 149px;
+  height: 52px;
+  border-radius: 26px;
+  background: #dfe7ec;
+  align-items: center;
+  justify-content: center;
+  color: #304859;
+  font-size: 20px;
+  font-weight: 700;
+}
+.two-box {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-box {
+    display: none;
+  }
+  .restart-box {
+    display: flex;
+  }
+  .newGame-box {
+    display: flex;
+  }
+  .two-box {
+    display: flex;
+    gap: 16px;
+  }
+  .num {
+    width: 118px;
+    height: 118px;
+  }
+  main {
+    width: 532px;
+    gap: 20px;
+    padding-top: 158px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  header {
+    padding: 37px 40px 0 39px;
+  }
+  @media screen and (min-width: 1440px) {
+    header {
+      padding: 68px 165px 0 165px;
+    }
+  }
+}
