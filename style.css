@@ -179,4 +179,9 @@ g
         background: #6395B8;
     }
 
+    .icon-btn:hover {
+        cursor: pointer;
+        background-color: #6395B8;
+    }
+
 }
