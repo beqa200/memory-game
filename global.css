@@ -30,10 +30,9 @@ header {
 }
 main {
   display: flex;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 80px 24px 0 24px;
+  padding-top: 80px;
   gap: 12.29px;
   justify-content: center;
   align-items: center;
@@ -95,9 +94,19 @@ main {
     height: 118px;
   }
   main {
-    width: 517px;
+    width: 532px;
+    gap: 20px;
+    padding-top: 158px;
   }
   h1 {
     font-size: 40px;
+  }
+  header {
+    padding: 37px 40px 0 39px;
+  }
+  @media screen and (min-width: 1440px) {
+    header {
+      padding: 68px 165px 0 165px;
+    }
   }
 }

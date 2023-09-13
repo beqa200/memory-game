@@ -1,8 +1,9 @@
 footer {
-  padding: 102px 24px 24px 24px;
+  padding-top: 102px;
   gap: 24px;
   display: flex;
   justify-content: center;
+  margin: auto;
 }
 .p {
   border-radius: 5px;
@@ -32,12 +33,33 @@ footer {
 @media screen and (min-width: 768px) {
   footer {
     gap: 11px;
-    padding: 140px 40px 38px 39px;
+    padding: 128px 0 38px 0;
   }
   .p {
     min-width: 164px;
     min-height: 80px;
     align-items: inherit;
     padding: 14px 0 0 16px;
+    border-radius: 10px;
+  }
+  @media screen and (min-width: 1440px) {
+    .p {
+      width: 255px;
+      height: 72px;
+      justify-content: space-between;
+      flex-direction: row;
+      padding: 0 15px 0 21px;
+      align-items: center;
+    }
+    footer {
+      padding-top: 122px 0 72px 0;
+      gap: 30px;
+    }
+    .player {
+      font-size: 18px;
+    }
+    .score {
+      font-size: 32px;
+    }
   }
 }
