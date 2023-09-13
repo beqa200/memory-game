@@ -62,6 +62,9 @@ footer {
   }
 
   @media screen and (min-width: 1440px) {
+    main {
+      padding-top: 91px;
+    }
     .p {
       width: 255px;
       height: 72px;
@@ -71,7 +74,7 @@ footer {
       align-items: center;
     }
     footer {
-      padding-top: 122px 0 72px 0;
+      padding: 122px 0 72px 0;
       gap: 30px;
     }
     .player {
