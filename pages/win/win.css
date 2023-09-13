@@ -1,0 +1,187 @@
+.main-cont {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+    background: #000;
+}
+
+.win-cont {
+    width: 279px;
+    height: 432px;
+    border-radius: 10px;
+    background: #F2F2F2;
+    padding: 32px 24px 24px 24px;
+    text-align: center;
+}
+
+.win-title {
+    margin-bottom: 9px;
+    color: #152938;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.result-p {
+    color: #7191A5;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.winner-cont {
+    width: 247.04px;
+    height: 48px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    background: #DFE7EC;
+    z-index: 2;
+    padding: 0 16px;
+}
+
+.winner-cont-act {
+    margin-top: 24px;
+    background: #152938;
+}
+
+.player-p {
+    color: #7191A5;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.player-p-act {
+    color: #FCFCFC;
+}
+
+.pairs-p {
+    color: #304859;
+    text-align: right;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pairs-p-act {
+    color: #FCFCFC;
+}
+
+.restart-btn {
+    width: 279px;
+    height: 48px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 26px;
+    background: #FDA214;
+}
+
+.restart-btn-value {
+    color: #FCFCFC;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.setup-btn {
+    width: 279px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 26px;
+    margin-top: 16px;
+    background: #DFE7EC;
+}
+
+.setup-btn-value {
+    color: #304859;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .win-cont {
+        width: 542.04px;
+        height: 582.02px;
+        padding: 51px 56px 69px 56px;
+    }
+
+    .win-title {
+        font-size: 48px;
+        margin-bottom: 16px;
+    }
+
+    .result-p {
+        font-size: 18px;
+    }
+
+    .winner-cont {
+        width: 478.02px;
+        height: 72px;
+        padding: 0 32px;
+        margin-top: 16px;
+    }
+
+    .winner-cont-act {
+        margin-top: 40px;
+    }
+
+    .player-p {
+        font-size: 18px;
+    }
+
+    .pairs-p {
+        font-size: 32px;
+    }
+
+    .btns-cont {
+        width: 100%;
+        margin-top: 56px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .restart-btn {
+        margin: 0;
+        width: 264px;
+        height: 52px;
+    }
+
+    .setup-btn {
+        margin: 0;
+        width: 264px;
+        height: 52px;
+    }
+
+}
