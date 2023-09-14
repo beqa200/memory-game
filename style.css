@@ -54,6 +54,21 @@ body {
     background: #304859;
 }
 
+.grid-btn {
+    width: 134px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 26px;
+    background: #304859;
+}
+
+.numchange {
+    background: #304859;
+}
+
 .btn-value {
     color: #FCFCFC;
     font-family: 'Atkinson Hyperlegible', sans-serif;
@@ -65,6 +80,10 @@ body {
 
 .icon-btn {
     background: #BCCED9;
+}
+
+.numchange {
+    background: #304859;
 }
 
 .number-of-p {
@@ -106,6 +125,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .start-game {
@@ -141,6 +161,12 @@ body {
     }
 
     .number-btn {
+        width: 256px;
+        height: 52px;
+        transition-duration: .5s;
+    }
+
+    .grid-btn {
         width: 256px;
         height: 52px;
         transition-duration: .5s;
