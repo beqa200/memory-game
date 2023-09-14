@@ -38,6 +38,7 @@ main {
   align-items: center;
   width: 327px;
   margin: auto;
+  padding: 0 40px;
 }
 
 .num {
@@ -70,6 +71,7 @@ main {
   color: #304859;
   font-size: 20px;
   font-weight: 700;
+  text-decoration: none;
 }
 .two-box {
   display: none;
