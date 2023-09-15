@@ -5,11 +5,9 @@ Memory Games created by refernece given in Figma for BitCamp Collab Project
 
 ## Usage
 
-- User can ;
-- Registered user has an ability to add their social links to their profile;
-- Registered user can edit their profile details and upload profile photo;
-- Profile can be previewed by Registered User;
-- All data is being sorted in local storage;
+- User can choose game options;
+- The game tests your memory;
+- Your goal in the game is to find two identical numbers;
 
 ### Getting Started
 
