@@ -37,8 +37,8 @@ main {
   justify-content: center;
   align-items: center;
   width: 327px;
-  margin: auto;
-  padding: 0 40px;
+  margin: 80px auto 0 auto;
+  /* padding: 0 40px; */
 }
 
 .num {
