@@ -5,6 +5,7 @@ footer {
   justify-content: center;
   margin: auto;
 }
+
 .p {
   border-radius: 5px;
   background: #dfe7ec;
@@ -16,6 +17,7 @@ footer {
   padding-top: 10px;
   gap: 8px;
 }
+
 .score {
   width: 24px;
   color: #304859;
@@ -23,6 +25,7 @@ footer {
   font-size: 24px;
   font-weight: 700;
 }
+
 .player {
   width: 37px;
   color: #7191a5;
@@ -32,13 +35,75 @@ footer {
 }
 
 .grid6x6 .num {
-  width: 46.878px;
-  height: 46.878px;
+  width: 72.53px;
+  height: 72.53px;
+  gap: 12.29px;
 }
 
 .grid6x6 main {
   width: 343px;
-  gap: 9.12px;
+}
+
+.time-box {
+  width: 151px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background: #DFE7EC;
+}
+
+.move-box {
+  width: 151px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background: #DFE7EC;
+}
+
+.text {
+  color: #7191A5;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.moves {
+  color: #7191A5;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.time {
+  color: #304859;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.number {
+  color: #304859;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#mainMenu {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -46,6 +111,7 @@ footer {
     gap: 11px;
     padding: 128px 0 38px 0;
   }
+
   .p {
     min-width: 148px;
     min-height: 66px;
@@ -59,10 +125,44 @@ footer {
     padding-top: 122px;
     width: 572px;
   }
+
   .grid6x6 .num {
     width: 82px;
     height: 82px;
   }
+
+  .time-box {
+    width: 255px;
+    height: 72px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+
+  .move-box {
+    width: 255px;
+    height: 72px;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .text {
+    margin-left: 21px;
+  }
+
+  .moves {
+    margin-left: 21px;
+  }
+
+  .time {
+    margin-right: 24px;
+  }
+
+  .number {
+    margin-right: 24px;
+  }
+
   @media screen and (min-width: 1440px) {
     .p {
       width: 255px;
@@ -72,13 +172,16 @@ footer {
       padding: 0 15px 0 21px;
       align-items: center;
     }
+
     footer {
       padding-top: 122px 0 72px 0;
       gap: 30px;
     }
+
     .player {
       font-size: 18px;
     }
+
     .score {
       font-size: 32px;
     }
