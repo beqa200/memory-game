@@ -44,6 +44,18 @@ footer {
   width: 343px;
 }
 
+.num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FCFCFC;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .time-box {
   width: 151px;
   height: 70px;
@@ -105,6 +117,7 @@ footer {
 #mainMenu {
   display: none;
 }
+
 
 @media screen and (min-width: 768px) {
   footer {
